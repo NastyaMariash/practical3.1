@@ -1,8 +1,11 @@
-f = list(input("Enter surname: "))
+f = input("text:").lower()
 
-for r in f:
-  if r.lower() == "a":
-    print("""
+e = len(f)
+
+g = list(f)
+
+def a():
+    print('''
  ### 
 #   #
 #   #
@@ -10,18 +13,19 @@ for r in f:
 #   #
 #   #
 #   #
-    """)
-  if r.lower() == "b":
-    print("""
+   \n''' )
+def b():
+    print('''
 #### 
+#   #
 #   #
 ####
 #   #
 #   #
 #### 
-    """)
-  if r.lower() == "c":
-    print("""
+  \n''' )
+def c():
+    print('''
  ### 
 #   #
 #    
@@ -29,9 +33,9 @@ for r in f:
 #    
 #   #
  ###
-    """)
-  if r.lower() == "d":
-    print("""
+   \n''' )
+def d():
+    print('''
 ####  
 #   # 
 #   # 
@@ -39,9 +43,9 @@ for r in f:
 #   # 
 #   # 
 #### 
-    """)
-  if r.lower() == "e":
-    print("""
+ \n''' )
+def e():
+    print('''
 #####
 #    
 #    
@@ -49,9 +53,9 @@ for r in f:
 #    
 #    
 #####
-    """)
-  if r.lower() == "f":
-    print("""
+   \n''' )
+def f():
+    print('''
 #####
 #    
 #    
@@ -59,9 +63,9 @@ for r in f:
 #    
 #    
 #  
-    """)
-  if r.lower() == "g":
-    print("""
+  \n''' )
+def g():
+    print('''
  ### 
 #   #
 #    
@@ -69,9 +73,9 @@ for r in f:
 #   #
 #   #
  ### 
-    """)
-  if r.lower() == "h":
-    print("""
+   \n''' )
+def h():
+    print('''
 #   # 
 #   # 
 #   # 
@@ -79,9 +83,9 @@ for r in f:
 #   # 
 #   # 
 #   #
-    """)
-  if r.lower() == "i":
-    print("""
+   \n''' )
+def i():
+    print('''
   ###
    # 
    # 
@@ -89,9 +93,9 @@ for r in f:
    # 
    # 
   ###
-    """)
-  if r.lower() == "j":
-    print("""
+  \n''')
+def j():
+    print('''
  ###
   # 
   # 
@@ -99,9 +103,9 @@ for r in f:
   # 
   # 
 ## 
-    """)
-  if r.lower() == "k":
-    print("""
+   \n''' )
+def k():
+    print('''
 #   #
 #  # 
 # #  
@@ -109,9 +113,9 @@ for r in f:
 # #  
 #  # 
 #   #
-    """)
-  if r.lower() == "l":
-    print("""
+  \n''' )
+def l():
+    print('''
 #    
 #    
 #    
@@ -119,19 +123,19 @@ for r in f:
 #    
 #   
 ######
-    """)
-  if r.lower() == "m":
-    print("""
-#      #
+   \n''' )
+def m():
+    print('''
+#       #
 # #   # #
 #  # #  #
 #   #   #
 #       #
 #       #
 #       #
-    """)
-  if r.lower() == "n":
-    print("""
+  \n''' )
+def n():
+    print('''
   #       #
   # #     #
   #  #    #
@@ -139,9 +143,9 @@ for r in f:
   #    #  #
   #     # #
   #       #
-    """)
-  if r.lower() == "o":
-    print("""
+  \n''' )
+def o():
+    print('''
  ####
 #    #
 #    #
@@ -149,9 +153,9 @@ for r in f:
 #    #
 #    #
  ####
-    """)
-  if r.lower() == "p":
-    print("""
+   \n''' )
+def p():
+    print('''
 ####
 #   #
 #   #
@@ -159,9 +163,9 @@ for r in f:
 #
 #
 #
-    """)
-  if r.lower() == "q":
-    print("""
+  \n''' )
+def q():
+    print('''
   ###   
  #   #  
  #   #   
@@ -169,9 +173,9 @@ for r in f:
  #   #    
  #  #  
   ## # 
-    """)
-  if r.lower() == "r":
-    print("""
+   \n''' )
+def r():
+    print('''
 ####    
 #   #   
 #   #    
@@ -179,9 +183,9 @@ for r in f:
 # #      
 #  #    
 #   #  
-    """)
-  if r.lower() == "s":
-    print("""
+    \n''' )
+def s():
+    print('''
  #####
 #    
 #    
@@ -189,9 +193,9 @@ for r in f:
      #
      #
  ####
-    """)
-  if r.lower() == "t":
-    print("""
+  \n''' )
+def t():
+    print('''
 ########
    #   
    #
@@ -199,9 +203,9 @@ for r in f:
    #
    #
    #
-    """)
-  if r.lower() == "u":
-    print("""
+  \n''' )
+def u():
+    print('''
 #      #
 #      #
 #      #
@@ -209,9 +213,9 @@ for r in f:
 #      #
 #      #
   ####
-    """)
-  if r.lower() == "v":
-    print("""
+  \n''' )
+def v():
+    print('''
 #           #
  #         #
   #       #
@@ -219,9 +223,9 @@ for r in f:
     #   #
      # #
       #
-    """)
-  if r.lower() == "w":
-    print("""
+   \n''' )
+def w():
+    print('''
 #                 #
  #               #
   #             #
@@ -229,9 +233,9 @@ for r in f:
     #   # #   #
      # #   # #
       #     #
-    """)
-  if r.lower() == "x":
-    print("""
+    \n''' )
+def x():
+    print('''
  #     #    
   #   #    
    # #      
@@ -239,9 +243,9 @@ for r in f:
    # #       
   #   #    
  #     # 
-    """)
-  if r.lower() == "y":
-    print("""
+   \n''' )
+def y():
+    print('''
  #     #
   #   #
    # # 
@@ -249,13 +253,67 @@ for r in f:
     #  
     #  
     # 
-    """)
-  if r.lower() == "z":
-   print("""
+    \n''' )
+def z():
+    print('''
 ######
     #
    #
   #
  #
-###### 
-   """)
+######\n''')
+
+for i in range (0 , e):
+  if(g[i] == "a"):
+    a()
+  elif(g[i] == "b"):
+    b()
+  elif(g[i] == "c"):
+    c()
+  elif(g[i] == "d"):
+    d()
+  elif(g[i] == "e"):
+    e()
+  elif(g[i] == "f"):
+    f()
+  elif(g[i] == "g"):
+    g()
+  elif(g[i] == "h"):
+     h()
+  elif(g[i] == "i"):
+    i()
+  elif(g[i] == "j"):
+    j()
+  elif(g[i] == "k"):
+    k()
+  elif(g[i] == "l"):
+    l()
+  elif(g[i] == "m"):
+    m()
+  elif(g[i] == "n"):
+    n()
+  elif(g[i] == "o"):
+    o()
+  elif(g[i] == "p"):
+    p()
+  elif(g[i] == "q"):
+    q()
+  elif(g[i] == "r"):
+    r()
+  elif(g[i] == "s"):
+    s()
+  elif(g[i] == "t"):
+    t()
+  elif(g[i] == "u"):
+    u()
+  elif(g[i] == "v"):
+    v()
+  elif(g[i] == "w"):
+    w()
+  elif(g[i] == "x"):
+    x()
+  elif(g[i] == "y"):
+    y()
+  elif(g[i] == "z"):
+    z()
+
